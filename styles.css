@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.content {
+    background-color: rgba(107, 168, 185, 0.339);
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
+h1 {
+    display: flex;
+    color: rgb(212, 100, 8);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h3 {
+    display: flex;
+    color: rgb(86, 86, 86);
+    margin: 3px;
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.promo {
+    color: rgb(193, 53, 41);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.receipt {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.order {
+    margin-top: 40px;
+    border-radius: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 50px;
+    background-color: rgb(254, 253, 253);
+}
+
+.item {
+    margin: 10px;
+}
